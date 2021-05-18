@@ -1,38 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <title>Jessica Washington: Portfolio</title>
 </head>
+
 <body>
     <div id="page-wrapper">
 
         <header>
+            <div>
+
+            </div>
             <header id="header">
-                <h1>Jessica Washington</h1>
-                <div id=""></div>
-                
-            </header> 
+                <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Jessica Washington</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#main">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#projects">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contactForm">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div id="opening">
+                <div id="main">
+                    <h1>Jessica Washington</h1>
+                    <p>Coder in training</p>
+                </div>
+            </div>
+
         </header>
 
-        
-    
-    
-    
-    
-    
-    
+        <div id="about">
+            <br>
+            <h2>About Me</h2>
+            <p>
+                At this moment, I am enrolled at Eleven Fiffty Academy in the Web Development course. My past experience
+                includes customer service and working in education. I enjoy solving complex issues and wokring with a
+                team. My skills include working with HMTL, CSS, and JavaScript. Within the next two months I plan to
+                graduate Eleven Fiffty Academy with a certificate in Web Development.
+            </p>
+
+        </div>
+
+        <div id="projects">
+            <div class="card-group">
+                <div id="cssCreature" class="card" style="width: 18rem;">
+                    <img src="./assets/Screen Shot 2021-05-18 at 11.39.07 AM.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">CSS Creature was one of the first projects I created using css.</p>
+                        <a href="https://codepen.io/JessJoWash/pen/dyNLvpa">CSS Creature</a>
+                    </div>
+                </div>
+
+                <div id="staticLay" class="card" style="width: 18rem;">
+                    <img src="./assets/Screen Shot 2021-05-18 at 11.40.21 AM.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">This project is a static website based off of the HULU website</p>
+                        <a href="https://jessica-wash.github.io/staticLayout/">Static Layout</a>
+                    </div>
+                </div>
+
+                <div id="api1" class="card" style="width: 18rem;">
+                    <img src="./assets/Screen Shot 2021-05-18 at 11.44.26 AM.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">This was the first API project I had ever done! In this project i used the Pokémon Encounters API. It was a struggle learning how to use an API, but it taught me some valueable lessons.</p>
+                        <a href="https://jessica-wash.github.io/apiChallenge1/">API Project 1</a>
+                    </div>
+                </div>
+
+                <div id="api2" class="card" style="width: 18rem;">
+                    <img src="./assets/Screen Shot 2021-05-18 at 11.46.33 AM.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text"> For this project i used the NASA APOD API. This was my second API project. The layout was inspired by early 90's internet.</p>
+                        <a href="">API Project 2</a>
+                        
+                    </div>
+                </div>
+
+                <div id="blueBadge" class="card" style="width: 18rem;">
+                    <img src="./assets/blue.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Blue Badge is a section of the course I am currently enrolled in. This will begin on May 24th of 2021</p>
+                    </div>
+                </div>
+
+                <div id="redBadge" class="card" style="width: 18rem;">
+                    <img src="./assets/red.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Red Badge is a section of the course i am enrolled in currently.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contactMe" id="contactForm">
+            <form action="https://formspree.io/f/mgeronvo" method="POST" class="container-sm">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com" required name="_replyto">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Your Message Here" required name="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-light">Sumbit</button>
+            </form>
+        </div>
+
+        <footer>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/Jessica-wash">GitHub</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/jessica-washington-5757bb1a1/">LinkedIn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">&#169;2021</a>
+                </li>
+            </ul>
+        </footer>
+
+
+
+
+
+
+
     </div>
-    
 
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

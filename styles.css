@@ -10,8 +10,7 @@ body, html {
     height: 100%;
 }
 body{
-    background-color: #8aa65a;
-    color: bisque;
+    color: #5c8263;
     height: 100vh;
     /* The image used */
     background-image: url("./assets/portfolio-color-scheme.png");
@@ -25,10 +24,56 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* header{
+#opening{
+    display: flex;
+    justify-content: center;
+}
+#main{
+    text-align: center;
+    color:#442059;
+    margin: 250px 0 250px 0;
+    border: solid 2px #5c8263;
+    background-color: #8aa65a85;
+    border-radius: 10px;
+    width: 300px;
+
+}
+
+#about{
+    background-color:#442059;
+    color: #bdcf95;
+    padding: 20px;
+    text-align: center;
     
-    
-} */
+}
+#about h2{
+    padding-bottom: 20px;
+}
+
+.card-body{
+    background-color:#8aa65a;
+    color: #442059;
+}
+
+.card-group img{
+    size: cover;
+    height: 150px;
+}
+
+#contactForm{
+    background-color:#442059;
+    color: #bdcf95;
+    padding: 20px;
+}
+
+footer{
+    margin-top: 1em;
+    bottom: 0;
+    align-items: flex-end;
+    background-color:#8aa65a;
+    padding: 20px;
+    margin: 0;
+}
 
 
   
